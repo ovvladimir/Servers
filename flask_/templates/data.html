@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>Video</title>
+  </head>
+  <body>
+    <video controls="controls" width="640" height="480" autoplay="autoplay" >
+      <source src="stream.m3u8" type="application/x-mpegURL" />
+    </video>
+    <img src="{{ url_for('video_return') }}">
+  </body>
+</html>
